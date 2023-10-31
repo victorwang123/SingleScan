@@ -1,7 +1,7 @@
 # This script must be run after Python version 3.7
 # Due to Google's academic restrictions on crawling, you must use a proxy for crawling
 # http or socket proxy
-PROXY = 'http://ssad:li4sEiR0YQOOWqVE@proxy.packetstream.io:31112'
+PROXY = '*********' # make sure you input the correct proxy
 
 from aiohttp import ClientSession, TCPConnector, ClientTimeout
 from bs4 import BeautifulSoup
